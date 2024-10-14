@@ -1,30 +1,38 @@
+/* Стиль для body с фоновым изображением */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    background-image: url('images/background.jpg'); /* Ссылка на фоновое изображение */
+    background-size: cover; /* Масштабируем на всю страницу */
+    background-position: center; /* Центрируем изображение */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
+/* Стиль для контейнера с полупрозрачностью */
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Белый фон с прозрачностью */
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для красоты */
+    border-radius: 10px; /* Скругленные углы */
 }
 
+/* Стиль для заголовка */
 h1 {
     color: #333;
 }
 
+/* Стиль для текста */
 p {
     font-size: 18px;
     color: #555;
 }
 
+/* Стиль для изображения */
 img {
     max-width: 100%;
     height: auto;
