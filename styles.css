@@ -15,7 +15,7 @@ body {
 /* Стиль для контейнера с полупрозрачностью */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Белый фон с прозрачностью */
+    background-color: rgba(255, 255, 255, 0.4); /* Белый фон с прозрачностью */
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для красоты */
     border-radius: 10px; /* Скругленные углы */
