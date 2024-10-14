@@ -19,17 +19,27 @@ body {
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для красоты */
     border-radius: 10px; /* Скругленные углы */
+    width: 80%; /* Ширина контейнера */
+    max-width: 600px; /* Максимальная ширина */
+    
+    /* Flexbox для вертикального центрирования */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Стиль для заголовка */
 h1 {
     color: #333;
+    margin-bottom: 15px; /* Отступ между заголовком и текстом */
 }
 
 /* Стиль для текста */
 p {
     font-size: 18px;
     color: #555;
+    margin-bottom: 20px; /* Отступ между текстом и картинкой */
 }
 
 /* Стиль для изображения */
@@ -37,4 +47,5 @@ img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
+    border-radius: 10px; /* Немного скруглим углы у изображения */
 }
