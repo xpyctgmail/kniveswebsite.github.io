@@ -18,7 +18,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6); /* Белый фон с прозрачностью */
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для красоты */
-    border-radius: 10px; /* Скругленные углы */
+    border-radius: 20px; /* Скругленные углы */
     width: 80%; /* Ширина контейнера */
     max-width: 600px; /* Максимальная ширина */
     
